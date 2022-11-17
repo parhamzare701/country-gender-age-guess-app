@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.guess {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #8052ec, #d161ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.guess__search {
+  display: grid;
+  background-color: #ffffff;
+  border-radius: 0.3rem;
+  padding: 1.8rem 1.2rem;
+  width: 50%;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.guess__search__input {
+  min-width: 70%;
+  font-size: 0.9rem;
+  text-align: center;
+  border: 0.1rem solid #d1d3d4;
+  padding: 0.75rem;
+  color: #111111;
+  font-weight: 500;
+  border-radius: 0.3rem;
+}
+.guess__search__input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+.guess__search__btn {
+  min-width: 20%;
+  padding: 0.25rem;
+  min-height: 2.5rem;
+  border-radius: 0.3rem;
+  font-weight: 500;
+  font-size: 1rem;
+  background-color: transparent;
+  border: 0.09rem solid #007bff;
+  color: #007bff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.guess__search__btn:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+.guess__result {
+  width: 50%;
+}
+.guess__result__age {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  min-height: 25vh;
+  background: #ffffff;
+  border-radius: 0.3rem;
+}
+.guess__result__age__title {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.guess__result__age__name, .guess__result__age__count, .guess__result__age__lifetime {
+  margin-top: 1rem;
+}
+.guess__result__age__name__text, .guess__result__age__count__text, .guess__result__age__lifetime__text {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: rgba(101, 101, 102, 0.8117647059);
+}
+.guess__result__age__name__answer, .guess__result__age__count__answer, .guess__result__age__lifetime__answer {
+  font-weight: 500;
+  color: black;
+}
+.guess__result__country {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  min-height: 20vh;
+  background: #ffffff;
+  border-radius: 0.3rem;
+}
+.guess__result__country__title {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.guess__result__country__item {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.guess__result__country__item__country {
+  font-weight: 600;
+  font-size: 2rem;
+  color: rgba(101, 101, 102, 0.8117647059);
+}
+.guess__result__gender {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  min-height: 20vh;
+  background: #ffffff;
+  border-radius: 0.3rem;
+}
+.guess__result__gender__title {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.guess__result__gender__status, .guess__result__gender__probability {
+  margin-top: 1rem;
+}
+.guess__result__gender__status__text, .guess__result__gender__probability__text {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: rgba(101, 101, 102, 0.8117647059);
+}
+.guess__result__gender__status__answer, .guess__result__gender__probability__answer {
+  font-weight: 500;
+  color: black;
+}
+.guess__result__show {
+  margin-top: 2rem;
+  border-radius: 0.3rem;
+  background-color: #ffffff;
+  padding: 1.8rem 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.guess__result__show__btn {
+  min-width: 100%;
+  padding: 0.25rem;
+  min-height: 2.5rem;
+  border-radius: 0.3rem;
+  font-weight: 500;
+  font-size: 1rem;
+  background-color: transparent;
+  border: 0.09rem solid #007bff;
+  color: #007bff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.guess__result__show__btn:hover {
+  background-color: #007bff;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
